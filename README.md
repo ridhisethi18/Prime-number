@@ -1,4 +1,3 @@
-# Prime-number
 def prime(x, y):
     prime_list = []
     for i in range(x, y):
@@ -11,8 +10,6 @@ def prime(x, y):
             else:
                 prime_list.append(i)
     return prime_list
- 
-# Driver program
 starting_range = 2
 ending_range = 7
 lst = prime(starting_range, ending_range)
